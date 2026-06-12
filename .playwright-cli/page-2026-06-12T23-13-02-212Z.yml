@@ -1,0 +1,274 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - navigation [ref=e5]:
+      - link "Strand — home" [ref=e6] [cursor=pointer]:
+        - /url: "#top"
+        - img [ref=e7]
+        - generic [ref=e11]: Strand
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link "Models" [ref=e14] [cursor=pointer]:
+            - /url: "#models"
+        - listitem [ref=e15]:
+          - link "Workflow" [ref=e16] [cursor=pointer]:
+            - /url: "#workflow"
+        - listitem [ref=e17]:
+          - link "Makers" [ref=e18] [cursor=pointer]:
+            - /url: "#industries"
+        - listitem [ref=e19]:
+          - link "Features" [ref=e20] [cursor=pointer]:
+            - /url: "#features"
+        - listitem [ref=e21]:
+          - link "Pricing" [ref=e22] [cursor=pointer]:
+            - /url: "#pricing"
+        - listitem [ref=e23]:
+          - link "FAQ" [ref=e24] [cursor=pointer]:
+            - /url: "#faq"
+      - generic [ref=e25]:
+        - button "Switch to dark theme" [ref=e26]:
+          - img [ref=e27]
+        - link "Join waitlist" [ref=e29] [cursor=pointer]:
+          - /url: "#waitlist"
+  - main [ref=e30]:
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - heading "One canvas for image models ." [level=1] [ref=e33]:
+          - text: One canvas for
+          - generic [ref=e35]: image models
+          - text: .
+        - paragraph [ref=e36]: Strand is the AI workflow canvas where creators chain text, image, video, audio, pixel-art and 3D models into one flowing pipeline — and watch ideas render end to end.
+        - generic [ref=e38]:
+          - generic [ref=e39]: Email address
+          - textbox "Email address" [ref=e40]:
+            - /placeholder: you@studio.com
+          - button "Join waitlist" [ref=e41]
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - text: COMPOSABLE
+            - text: NODE WORKFLOWS
+          - generic [ref=e45]:
+            - text: MULTI-MODEL
+            - text: ONE CANVAS
+          - generic [ref=e47]:
+            - text: FOR MAKERS
+            - text: EVERY INDUSTRY
+      - img "A maker at a drafting table conducts glowing threads through floating AI model nodes — text, image, video, pixel art and 3D — weaving into one finished canvas." [ref=e50]
+    - generic [ref=e215]:
+      - generic [ref=e216]:
+        - paragraph [ref=e217]: Creative teams already juggle 7+ AI tools to ship a single campaign.
+        - paragraph [ref=e218]: — the multi-model reality, 2026
+      - generic [ref=e220]:
+        - generic [ref=e221]: MO
+        - generic [ref=e222]:
+          - paragraph [ref=e223]: Maya Okafor, Creative Director @ Halftone Studio
+          - paragraph [ref=e224]: "\"Strand turned our scattered prompts into one pipeline. We storyboard, render and cut a teaser in a single afternoon.\""
+    - generic [ref=e225]:
+      - generic [ref=e226]:
+        - generic [ref=e227]:
+          - img [ref=e228]
+          - text: Model library
+        - heading "Attach any model." [level=2] [ref=e231]
+        - paragraph [ref=e232]: Every kind of generative model becomes a node on your canvas — drop it in, wire it up, let it flow.
+      - generic [ref=e233]:
+        - article [ref=e234]:
+          - img "A quill writing glowing text." [ref=e236]
+          - heading "Text models." [level=3] [ref=e250]
+          - paragraph [ref=e251]: Scripts, captions, lore, copy — language nodes that feed everything downstream.
+        - article [ref=e256]:
+          - img "A framed landscape painting itself." [ref=e258]
+          - heading "Image models." [level=3] [ref=e272]
+          - paragraph [ref=e273]: Concepts, key art, product shots. Any diffusion or autoregressive image model.
+        - article [ref=e278]:
+          - img "A clapperboard with film strip in motion." [ref=e280]
+          - heading "Video models." [level=3] [ref=e295]
+          - paragraph [ref=e296]: Animate boards into motion. Text-to-video, image-to-video, lip-sync nodes.
+        - article [ref=e301]:
+          - img "A waveform flowing through a glowing node." [ref=e303]
+          - heading "Audio models." [level=3] [ref=e315]
+          - paragraph [ref=e316]: Voice-over, foley, soundtrack. Generated in key, timed to your cut.
+        - article [ref=e321]:
+          - img "A pixel-art sprite being placed block by block." [ref=e323]
+          - heading "Pixel-art models." [level=3] [ref=e352]
+          - paragraph [ref=e353]: Sprites, tilesets and animation frames that stay on-grid and on-palette.
+        - article [ref=e358]:
+          - img "An isometric cube on a modelling gizmo." [ref=e360]
+          - heading "3D asset models." [level=3] [ref=e373]
+          - paragraph [ref=e374]: Meshes, textures and PBR materials, ready for your engine of choice.
+    - generic [ref=e379]:
+      - generic [ref=e380]:
+        - generic [ref=e381]:
+          - img [ref=e382]
+          - text: Features
+        - heading "Built for flow, not tab-juggling." [level=2] [ref=e385]
+        - paragraph [ref=e386]: Everything a multi-model pipeline needs, woven into one canvas.
+      - generic [ref=e387]:
+        - generic [ref=e388]:
+          - img "Three model nodes braid their outputs into one stream." [ref=e390]
+          - generic [ref=e425]:
+            - heading "Mix models mid-flow." [level=3] [ref=e426]
+            - paragraph [ref=e427]: Route a script through a text model, hand frames to an image model, upscale with a third — every node speaks to the next.
+        - generic [ref=e428]:
+          - img "A versioned thread of runs — cards stacked on a timeline with a rewind loop." [ref=e430]:
+            - generic [ref=e446]: v12
+            - generic [ref=e454]: v13
+            - generic [ref=e462]: v14
+          - generic [ref=e467]:
+            - heading "Every run, remembered." [level=3] [ref=e468]
+            - paragraph [ref=e469]: Assets, prompts and outputs are versioned on the thread. Rewind any run, branch it, remix it.
+        - generic [ref=e470]:
+          - img "One node fans out into a grid of six variations; the keepers get checkmarks." [ref=e472]
+          - generic [ref=e534]:
+            - heading "Batch a hundred variations." [level=3] [ref=e535]
+            - paragraph [ref=e536]: Fan one workflow out across styles, sizes and seeds. Review side by side, keep the keepers.
+        - generic [ref=e537]:
+          - img "A clock wired to a workflow node delivers a fresh stack of assets at sunrise." [ref=e539]
+          - generic [ref=e570]:
+            - heading "Set it. Schedule it." [level=3] [ref=e571]
+            - paragraph [ref=e572]: Trigger workflows on a cron or webhook — wake up to fresh assets every morning.
+    - generic [ref=e573]:
+      - generic [ref=e574]:
+        - generic [ref=e575]:
+          - img [ref=e576]
+          - text: Pricing
+        - heading "Start free, scale when it flows." [level=2] [ref=e579]
+        - paragraph [ref=e580]: Simple tiers for solo makers and studios.
+      - generic [ref=e581]:
+        - generic [ref=e582]:
+          - generic [ref=e584]: Thread
+          - generic [ref=e585]:
+            - generic [ref=e586]: $0
+            - generic [ref=e587]: forever
+          - list [ref=e588]:
+            - listitem [ref=e589]:
+              - img [ref=e590]
+              - generic [ref=e593]: 3 workflows
+            - listitem [ref=e594]:
+              - img [ref=e595]
+              - generic [ref=e598]: 2 models per flow
+            - listitem [ref=e599]:
+              - img [ref=e600]
+              - generic [ref=e603]: Community model library
+            - listitem [ref=e604]:
+              - img [ref=e605]
+              - generic [ref=e608]: 720p renders
+          - link "Start free" [ref=e609] [cursor=pointer]:
+            - /url: "#waitlist"
+        - generic [ref=e610]:
+          - generic [ref=e611]:
+            - generic [ref=e612]: Studio
+            - generic [ref=e613]: Early bird −40%
+          - generic [ref=e614]:
+            - generic [ref=e615]: $24
+            - generic [ref=e616]: /month
+          - list [ref=e617]:
+            - listitem [ref=e618]:
+              - img [ref=e619]
+              - generic [ref=e622]: Unlimited workflows
+            - listitem [ref=e623]:
+              - img [ref=e624]
+              - generic [ref=e627]: Every model type
+            - listitem [ref=e628]:
+              - img [ref=e629]
+              - generic [ref=e632]: Batch runs
+            - listitem [ref=e633]:
+              - img [ref=e634]
+              - generic [ref=e637]: Full version history
+            - listitem [ref=e638]:
+              - img [ref=e639]
+              - generic [ref=e642]: 4K renders
+          - link "Join waitlist" [ref=e643] [cursor=pointer]:
+            - /url: "#waitlist"
+        - generic [ref=e644]:
+          - generic [ref=e646]: Team
+          - generic [ref=e647]:
+            - generic [ref=e648]: $79
+            - generic [ref=e649]: /month
+          - list [ref=e650]:
+            - listitem [ref=e651]:
+              - img [ref=e652]
+              - generic [ref=e655]: Everything in Studio
+            - listitem [ref=e656]:
+              - img [ref=e657]
+              - generic [ref=e660]: Shared canvases
+            - listitem [ref=e661]:
+              - img [ref=e662]
+              - generic [ref=e665]: Roles & reviews
+            - listitem [ref=e666]:
+              - img [ref=e667]
+              - generic [ref=e670]: SSO
+            - listitem [ref=e671]:
+              - img [ref=e672]
+              - generic [ref=e675]: Priority render queue
+          - link "Join waitlist" [ref=e676] [cursor=pointer]:
+            - /url: "#waitlist"
+    - generic [ref=e677]:
+      - generic [ref=e678]:
+        - generic [ref=e679]:
+          - img [ref=e680]
+          - text: FAQ
+        - heading "Read the FAQs." [level=2] [ref=e683]
+        - paragraph [ref=e684]: Everything makers ask before pulling the thread.
+      - generic [ref=e685]:
+        - generic [ref=e686]:
+          - button "What is Strand, exactly?" [ref=e688]:
+            - generic [ref=e689]: What is Strand, exactly?
+            - img [ref=e690]
+          - button "Which models can I attach?" [ref=e693]:
+            - generic [ref=e694]: Which models can I attach?
+            - img [ref=e695]
+          - button "Do I need to know how to code?" [ref=e698]:
+            - generic [ref=e699]: Do I need to know how to code?
+            - img [ref=e700]
+          - button "How is this different from a prompt tool?" [ref=e703]:
+            - generic [ref=e704]: How is this different from a prompt tool?
+            - img [ref=e705]
+        - generic [ref=e707]:
+          - button "Can my team work on the same canvas?" [ref=e709]:
+            - generic [ref=e710]: Can my team work on the same canvas?
+            - img [ref=e711]
+          - button "What happens to my assets?" [ref=e714]:
+            - generic [ref=e715]: What happens to my assets?
+            - img [ref=e716]
+          - button "When does the beta open?" [ref=e719]:
+            - generic [ref=e720]: When does the beta open?
+            - img [ref=e721]
+          - button "Is there a free tier?" [ref=e724]:
+            - generic [ref=e725]: Is there a free tier?
+            - img [ref=e726]
+    - generic [ref=e729]:
+      - heading "Pull the first thread." [level=2] [ref=e730]
+      - paragraph [ref=e731]: Join the waitlist and be weaving before the beta doors open.
+      - generic [ref=e733]:
+        - generic [ref=e734]: Email address
+        - textbox "Email address" [ref=e735]:
+          - /placeholder: you@studio.com
+        - button "Join waitlist" [ref=e736]
+  - contentinfo [ref=e737]:
+    - generic [ref=e738]:
+      - generic [ref=e739]:
+        - generic [ref=e740]:
+          - link "Strand — home" [ref=e741] [cursor=pointer]:
+            - /url: "#top"
+            - img [ref=e742]
+            - generic [ref=e746]: Strand
+          - generic [ref=e747]: —
+          - generic [ref=e748]: Every model. One thread.
+        - generic [ref=e749]:
+          - link "Strand on X" [ref=e750] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e751]
+          - link "Strand on LinkedIn" [ref=e753] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e754]
+          - link "Strand on YouTube" [ref=e758] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e759]
+      - generic [ref=e762]:
+        - generic [ref=e763]: © 2026 Strand
+        - navigation "Footer legal links" [ref=e764]:
+          - link "Privacy Policy" [ref=e765] [cursor=pointer]:
+            - /url: "#"
+          - link "Terms" [ref=e766] [cursor=pointer]:
+            - /url: "#"
+          - link "Contact" [ref=e767] [cursor=pointer]:
+            - /url: "#"
