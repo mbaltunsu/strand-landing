@@ -171,8 +171,3 @@ export function OutputNodeView({ data }: NodeProps<OutputNode>) {
   )
 }
 
-export const nodeTypes = {
-  prompt: PromptNodeView,
-  model: ModelNodeView,
-  output: OutputNodeView,
-}

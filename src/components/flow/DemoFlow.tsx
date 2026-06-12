@@ -9,7 +9,13 @@ import {
 } from '@xyflow/react'
 import '@xyflow/react/dist/style.css'
 import './flow.css'
-import { nodeTypes, type DemoNode } from './nodes'
+import { PromptNodeView, ModelNodeView, OutputNodeView, type DemoNode } from './nodes'
+
+const nodeTypes = {
+  prompt: PromptNodeView,
+  model: ModelNodeView,
+  output: OutputNodeView,
+}
 
 const initialNodes: DemoNode[] = [
   {
