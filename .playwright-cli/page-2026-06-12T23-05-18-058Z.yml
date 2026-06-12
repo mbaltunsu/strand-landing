@@ -1,0 +1,55 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - navigation [ref=e5]:
+      - link "Strand — home" [ref=e6] [cursor=pointer]:
+        - /url: "#top"
+        - img [ref=e7]
+        - generic [ref=e11]: Strand
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link "Models" [ref=e14] [cursor=pointer]:
+            - /url: "#models"
+        - listitem [ref=e15]:
+          - link "Workflow" [ref=e16] [cursor=pointer]:
+            - /url: "#workflow"
+        - listitem [ref=e17]:
+          - link "Makers" [ref=e18] [cursor=pointer]:
+            - /url: "#industries"
+        - listitem [ref=e19]:
+          - link "Features" [ref=e20] [cursor=pointer]:
+            - /url: "#features"
+        - listitem [ref=e21]:
+          - link "Pricing" [ref=e22] [cursor=pointer]:
+            - /url: "#pricing"
+        - listitem [ref=e23]:
+          - link "FAQ" [ref=e24] [cursor=pointer]:
+            - /url: "#faq"
+      - generic [ref=e25]:
+        - button "Switch to dark theme" [ref=e26]:
+          - img [ref=e27]
+        - link "Join waitlist" [ref=e29] [cursor=pointer]:
+          - /url: "#waitlist"
+  - main [ref=e30]:
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - heading "One canvas for image models ." [level=1] [ref=e33]:
+          - text: One canvas for
+          - generic [ref=e35]: image models
+          - text: .
+        - paragraph [ref=e36]: Strand is the AI workflow canvas where creators chain text, image, video, audio, pixel-art and 3D models into one flowing pipeline — and watch ideas render end to end.
+        - generic [ref=e38]:
+          - generic [ref=e39]: Email address
+          - textbox "Email address" [ref=e40]:
+            - /placeholder: you@studio.com
+          - button "Join waitlist" [ref=e41]
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - text: COMPOSABLE
+            - text: NODE WORKFLOWS
+          - generic [ref=e45]:
+            - text: MULTI-MODEL
+            - text: ONE CANVAS
+          - generic [ref=e47]:
+            - text: FOR MAKERS
+            - text: EVERY INDUSTRY
+      - img "A maker at a drafting table conducts glowing threads through floating AI model nodes — text, image, video, pixel art and 3D — weaving into one finished canvas." [ref=e50]

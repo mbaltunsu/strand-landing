@@ -1,0 +1,271 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - img [ref=e712]
+    - img [ref=e717]
+    - img [ref=e722]
+    - img [ref=e727]
+    - img [ref=e732]
+    - navigation [ref=e32]:
+      - generic [ref=e35]:
+        - link [ref=e36] [cursor=pointer]:
+          - /url: ./
+          - img [ref=e39]
+        - generic [ref=e41]:
+          - generic [ref=e42]:
+            - generic [ref=e44] [cursor=pointer]:
+              - paragraph [ref=e47]: AI Agents
+              - img [ref=e50]
+              - generic [ref=e1050]:
+                - link "AI Engine Researcher" [ref=e1051]:
+                  - /url: ./ai-engine-researcher
+                  - paragraph [ref=e1055]: AI Engine Researcher
+                - link "Mention Builder" [ref=e1056]:
+                  - /url: ./mention-builder
+                  - paragraph [ref=e1060]: Mention Builder
+                - link "UGC Agent" [ref=e1061]:
+                  - /url: ./ugc-agent
+                  - paragraph [ref=e1065]: UGC Agent
+                - link "Content Optimizer" [ref=e1066]:
+                  - /url: ./content-optimizer
+                  - paragraph [ref=e1070]: Content Optimizer
+            - generic [ref=e54] [cursor=pointer]:
+              - paragraph [ref=e57]: Industries
+              - img [ref=e60]
+            - paragraph [ref=e64]:
+              - link "Pricing" [ref=e65] [cursor=pointer]:
+                - /url: ./pricing
+            - generic [ref=e67] [cursor=pointer]:
+              - paragraph [ref=e70]: Resources
+              - img [ref=e73]
+            - generic [ref=e77] [cursor=pointer]:
+              - paragraph [ref=e80]: About
+              - img [ref=e83]
+          - link "Sign Up" [ref=e87] [cursor=pointer]:
+            - /url: https://app.qvery.ai/signup/
+            - paragraph [ref=e89]: Sign Up
+          - link "Log In" [ref=e91] [cursor=pointer]:
+            - /url: https://app.qvery.ai/login/
+            - paragraph [ref=e93]: Log In
+    - img [ref=e737]
+    - generic [ref=e99]:
+      - generic [ref=e100]:
+        - generic [ref=e101]:
+          - generic [ref=e102]:
+            - heading "Make Your Brand Discoverable" [level=1] [ref=e105]
+            - generic [ref=e108]: On Goo
+          - paragraph [ref=e112]: Qvery's AI Agents help marketers measure and grow brand visibility on the web.
+          - generic [ref=e113]:
+            - paragraph [ref=e118] [cursor=pointer]: Get a Demo
+            - link "Sign Up" [ref=e740] [cursor=pointer]:
+              - /url: https://app.qvery.ai/signup/
+              - paragraph [ref=e742]: Sign Up
+        - generic [ref=e126]:
+          - generic [ref=e130]:
+            - paragraph [ref=e132]: PERSONALIZED
+            - paragraph [ref=e134]: RECOMMENDATIONS & CITATIONS
+          - generic [ref=e136]:
+            - paragraph [ref=e138]: CONVERSATIONAL
+            - paragraph [ref=e140]: QVERY AI ASSISTANT
+          - generic [ref=e141]:
+            - paragraph [ref=e143]: SPECIALIZED
+            - paragraph [ref=e145]: AI AGENTS
+      - generic [ref=e146]:
+        - generic [ref=e147]:
+          - paragraph [ref=e150]: 50% of traditional search traffic will be replaced with generative AI by 2028.
+          - paragraph [ref=e153]: By Gartner
+        - img [ref=e156]
+        - img [ref=e160]
+        - generic [ref=e745]:
+          - paragraph [ref=e750]: Vlad Shvets, CEO @ Qvery
+          - paragraph [ref=e752]: This is an understatement. By 2028, 100% of search traffic will be driven by AI search engines. We built Qvery to help you win in this new era.
+      - generic [ref=e174]:
+        - generic [ref=e175]:
+          - generic [ref=e178]:
+            - img [ref=e181]
+            - paragraph [ref=e184]: Live
+          - heading "AI Engine Researcher." [level=2] [ref=e186]
+          - paragraph [ref=e188]: AI brand visibility data you can trust.
+        - generic [ref=e189]:
+          - generic [ref=e754]:
+            - heading "Your AI Visibility Agent" [level=3] [ref=e756]
+            - paragraph [ref=e758]: "AI Engine Researcher is an autonomous AI agent. Add your brand, and it does the rest: generating topics, running daily research across ChatGPT and Google AI Mode, and tracking your brand visibility in 200+ countries. All on autopilot."
+          - generic [ref=e766]:
+            - heading "Auto-Generated Topics & Queries" [level=3] [ref=e768]
+            - paragraph [ref=e770]: No manual setup. Qvery generates your topics and queries automatically from your brand data. Make any tweaks you'd like, and then watch them run daily across ChatGPT and Google AI Mode.
+          - generic [ref=e772]:
+            - heading "Real-World Output & Citations" [level=3] [ref=e774]
+            - paragraph [ref=e776]: Qvery captures every citation from every AI engine response. You see exactly which sources get recommended, which competitors show up, and which citations you need to win to grow your brand visibility.
+          - generic [ref=e784]:
+            - heading "Measure, Compare, Then Grow" [level=3] [ref=e786]
+            - paragraph [ref=e788]: "Every AI response we log feeds Qvery’s analytics engine. From that data, we surface insights and metrics: Visibility, Share of Voice, Sentiment, and more."
+      - generic [ref=e230]:
+        - generic [ref=e231]:
+          - generic [ref=e791]:
+            - img [ref=e794]
+            - paragraph [ref=e797]: Roadmap
+          - heading "Your AI Agent Team." [level=2] [ref=e242]
+          - paragraph [ref=e244]: The future of the web is agentic. At Qvery, we're building marketing AI Agents to power the world's best enterprise teams.
+        - generic [ref=e245]:
+          - generic [ref=e250]:
+            - generic [ref=e800]:
+              - img [ref=e803]
+              - paragraph [ref=e806]: Coming 2026
+            - heading "Mention Builder" [level=3] [ref=e261]
+            - paragraph [ref=e263]: AI agent that turns citations into coverage — on autopilot. Drawing on the insights from AI Engine Researcher, it drafts tailored outreach, handles every follow-up, and lands high-value mentions that lift your brand in AI search.
+            - link "Learn More" [ref=e809] [cursor=pointer]:
+              - /url: ./mention-builder
+              - paragraph [ref=e811]: Learn More
+          - generic [ref=e270]:
+            - generic [ref=e814]:
+              - img [ref=e817]
+              - paragraph [ref=e820]: Coming 2026
+            - heading "UGC Agent" [level=3] [ref=e281]
+            - paragraph [ref=e283]: AI agent that scans Reddit, TripAdvisor, and niche forums to find conversations where your brand belongs. UGC Agent recommends which threads to engage with and drafts replies for you, turning AI Engine Researcher insights into credible mentions that raise your visibility in AI search.
+            - link "Learn More" [ref=e823] [cursor=pointer]:
+              - /url: ./ugc-agent
+              - paragraph [ref=e825]: Learn More
+          - generic [ref=e296]:
+            - generic [ref=e828]:
+              - img [ref=e831]
+              - paragraph [ref=e834]: Coming 2026
+            - heading "Content Optimizer" [level=3] [ref=e307]
+            - paragraph [ref=e309]: AI agent that delivers tangible recommendations to make your content easier for AI engines to retrieve — and more useful for human readers. It scans each page for passage-level gaps, then provides focused rewrites and structural tweaks to turn your content into the source AI search cites.
+            - link "Learn More" [ref=e837] [cursor=pointer]:
+              - /url: ./content-optimizer
+              - paragraph [ref=e839]: Learn More
+      - generic [ref=e315]:
+        - generic [ref=e316]:
+          - generic [ref=e842]:
+            - img [ref=e845]
+            - paragraph [ref=e848]: Industry Solutions
+          - heading "AI Agents For Every Industry." [level=2] [ref=e327]
+          - paragraph [ref=e329]: Qvery serves forward-looking brands that are serious about winning AI search.
+        - generic [ref=e331]:
+          - generic [ref=e336]:
+            - paragraph [ref=e339]: Travel
+            - link "Learn More" [ref=e851] [cursor=pointer]:
+              - /url: ./travel
+              - paragraph [ref=e853]: Learn More
+          - generic [ref=e350]:
+            - paragraph [ref=e353]: Ecommerce
+            - link "Learn More" [ref=e857] [cursor=pointer]:
+              - /url: ./ecommerce
+              - paragraph [ref=e859]: Learn More
+          - generic [ref=e364]:
+            - paragraph [ref=e367]: Finance
+            - link "Learn More" [ref=e863] [cursor=pointer]:
+              - /url: ./finance
+              - paragraph [ref=e865]: Learn More
+          - generic [ref=e378]:
+            - paragraph [ref=e381]: Healthcare
+            - link "Learn More" [ref=e869] [cursor=pointer]:
+              - /url: ./healthcare
+              - paragraph [ref=e871]: Learn More
+          - generic [ref=e392]:
+            - paragraph [ref=e395]:
+              - code [ref=e396]: Automotive
+            - link "Learn More" [ref=e875] [cursor=pointer]:
+              - /url: ./automotive
+              - paragraph [ref=e877]: Learn More
+          - generic [ref=e407]:
+            - paragraph [ref=e410]:
+              - code [ref=e411]: Education
+            - link "Learn More" [ref=e881] [cursor=pointer]:
+              - /url: ./education
+              - paragraph [ref=e883]: Learn More
+          - generic [ref=e422]:
+            - paragraph [ref=e425]:
+              - code [ref=e426]: Real Estate
+            - link "Learn More" [ref=e887] [cursor=pointer]:
+              - /url: ./real-estate
+              - paragraph [ref=e889]: Learn More
+          - generic [ref=e437]:
+            - paragraph [ref=e440]:
+              - code [ref=e441]: Legal
+            - link "Learn More" [ref=e893] [cursor=pointer]:
+              - /url: ./legal-services
+              - paragraph [ref=e895]: Learn More
+          - generic [ref=e452]:
+            - paragraph [ref=e455]:
+              - code [ref=e456]: Saas
+            - link "Learn More" [ref=e899] [cursor=pointer]:
+              - /url: ./saas
+              - paragraph [ref=e901]: Learn More
+          - generic [ref=e467]:
+            - paragraph [ref=e470]:
+              - code [ref=e471]: Crypto
+            - link "Learn More" [ref=e905] [cursor=pointer]:
+              - /url: ./crypto
+              - paragraph [ref=e907]: Learn More
+      - generic [ref=e478]:
+        - heading "Read The FAQs." [level=2] [ref=e480]
+        - generic [ref=e481]:
+          - generic [ref=e911]:
+            - generic [ref=e914] [cursor=pointer]:
+              - heading "What is Qvery?" [level=6] [ref=e916]
+              - img [ref=e919]
+            - generic [ref=e923] [cursor=pointer]:
+              - heading "Who is Qvery for?" [level=6] [ref=e925]
+              - img [ref=e928]
+            - generic [ref=e932] [cursor=pointer]:
+              - heading "What is AI Engine Researcher?" [level=6] [ref=e934]
+              - img [ref=e937]
+            - generic [ref=e941] [cursor=pointer]:
+              - heading "How is Qvery different from other tools?" [level=6] [ref=e943]
+              - img [ref=e946]
+            - generic [ref=e950] [cursor=pointer]:
+              - heading "What is Qvery’s roadmap and long-term vision?" [level=6] [ref=e952]
+              - img [ref=e955]
+          - generic [ref=e959]:
+            - generic [ref=e962] [cursor=pointer]:
+              - heading "Which AI engines does Qvery support?" [level=6] [ref=e964]
+              - img [ref=e967]
+            - generic [ref=e971] [cursor=pointer]:
+              - heading "How do topics and queries work in Qvery?" [level=6] [ref=e973]
+              - img [ref=e976]
+            - generic [ref=e980] [cursor=pointer]:
+              - heading "How does Qvery generate queries?" [level=6] [ref=e982]
+              - img [ref=e985]
+            - generic [ref=e989] [cursor=pointer]:
+              - heading "How does Qvery collect citations?" [level=6] [ref=e991]
+              - img [ref=e994]
+            - generic [ref=e998] [cursor=pointer]:
+              - heading "How do we get started with Qvery?" [level=6] [ref=e1000]
+              - img [ref=e1003]
+    - generic [ref=e1008]:
+      - generic [ref=e1009]:
+        - generic [ref=e1010]:
+          - img [ref=e1013]
+          - paragraph [ref=e1016]: Measure & grow your AI engine visibility.
+        - generic [ref=e1017]:
+          - link [ref=e1018] [cursor=pointer]:
+            - /url: https://x.com/qvery_ai
+            - img [ref=e1020]
+          - link [ref=e1022] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/qvery/
+            - img [ref=e1026]
+          - link [ref=e1028] [cursor=pointer]:
+            - /url: https://www.youtube.com/@qvery-ai
+            - img [ref=e1030]
+      - generic [ref=e1032]:
+        - paragraph [ref=e1034]: © 2026 Qvery AI OÜ
+        - generic [ref=e1035]:
+          - paragraph [ref=e1037]:
+            - link "Privacy Policy" [ref=e1038] [cursor=pointer]:
+              - /url: ./privacy-policy
+          - paragraph [ref=e1040]:
+            - link "Terms & Conditions" [ref=e1041] [cursor=pointer]:
+              - /url: ./terms-and-conditions
+          - paragraph [ref=e1043]:
+            - link "Cookie Policy" [ref=e1044] [cursor=pointer]:
+              - /url: ./cookie-policy
+          - paragraph [ref=e1046]:
+            - link "Contact" [ref=e1047] [cursor=pointer]:
+              - /url: ./contact
+  - img [ref=e661]
+  - img [ref=e680]
+  - img [ref=e682]
+  - img [ref=e686]
+  - img [ref=e697]
+  - img [ref=e701]
+  - img [ref=e705]

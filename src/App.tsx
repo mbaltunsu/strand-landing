@@ -1,8 +1,16 @@
+import SvgDefs from './illustrations/SvgDefs'
+import Nav from './components/Nav'
+import Hero from './components/Hero'
+
 function App() {
   return (
-    <main className="min-h-screen bg-bg text-ink">
-      Strand
-    </main>
+    <div className="min-h-screen bg-bg text-ink">
+      <SvgDefs />
+      <Nav />
+      <main>
+        <Hero />
+      </main>
+    </div>
   )
 }
 
