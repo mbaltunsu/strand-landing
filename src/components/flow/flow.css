@@ -1,0 +1,87 @@
+/* ---------- Strand demo flow theming (dark-mode friendly via CSS vars) ---------- */
+
+/* Canvas surface stays transparent so the container bg shows through. */
+.strand-flow .react-flow__renderer,
+.strand-flow .react-flow__pane {
+  background: transparent;
+}
+
+/* Background dots */
+.strand-flow .react-flow__background {
+  color: var(--color-divider);
+}
+
+/* Custom nodes are unstyled by default in xyflow — keep it that way, just
+   make sure no stray outline appears and selection reads as purple. */
+.strand-flow .react-flow__node {
+  font-family: var(--font-body);
+}
+.strand-flow .react-flow__node:focus,
+.strand-flow .react-flow__node:focus-visible {
+  outline: none;
+}
+.strand-flow .react-flow__node.selected .strand-node {
+  outline: 2px solid var(--color-purple);
+  outline-offset: 2px;
+}
+
+/* ---------- Handles ---------- */
+.strand-flow .react-flow__handle {
+  width: 8px;
+  height: 8px;
+  border: 2px solid var(--color-surface);
+  border-radius: 9999px;
+}
+.strand-flow .react-flow__handle-left {
+  background: var(--color-teal); /* target */
+}
+.strand-flow .react-flow__handle-right {
+  background: var(--color-purple); /* source */
+}
+
+/* ---------- Edges ---------- */
+.strand-flow .react-flow__edge-path {
+  stroke: var(--color-purple);
+  stroke-width: 2;
+  opacity: 0.75;
+}
+.strand-flow .react-flow__edge.selected .react-flow__edge-path,
+.strand-flow .react-flow__edge:focus .react-flow__edge-path {
+  stroke: var(--color-purple);
+  opacity: 1;
+}
+/* xyflow's animated class already produces a moving dash; we only restyle it. */
+.strand-flow .react-flow__edge.animated .react-flow__edge-path {
+  stroke-dasharray: 6 6;
+}
+
+/* ---------- Node phase visuals ---------- */
+.strand-node {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.strand-node[data-phase='running'] {
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-purple) 45%, transparent);
+  transform: translateY(-1px);
+}
+.strand-node[data-phase='done'] {
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-teal) 38%, transparent);
+}
+
+/* Running spinner */
+.strand-spinner {
+  animation: strand-spin 0.7s linear infinite;
+}
+@keyframes strand-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .strand-spinner {
+    animation: none;
+  }
+  .strand-flow .react-flow__edge.animated .react-flow__edge-path {
+    stroke-dasharray: none;
+  }
+}

@@ -1,8 +1,10 @@
 import SvgDefs from './illustrations/SvgDefs'
+import TrajectoryLine from './components/TrajectoryLine'
 import Nav from './components/Nav'
 import Hero from './components/Hero'
 import StatQuote from './components/StatQuote'
 import ModelShowcase from './components/ModelShowcase'
+import WorkflowDemo from './components/WorkflowDemo'
 import Features from './components/Features'
 import Pricing from './components/Pricing'
 import FAQ from './components/FAQ'
@@ -14,15 +16,19 @@ function App() {
     <div className="min-h-screen bg-bg text-ink">
       <SvgDefs />
       <Nav />
-      <main>
-        <Hero />
-        <StatQuote />
-        <ModelShowcase />
-        <Features />
-        <Pricing />
-        <FAQ />
-        <FooterCTA />
-      </main>
+      <div className="relative">
+        <TrajectoryLine />
+        <main className="relative">
+          <Hero />
+          <StatQuote />
+          <ModelShowcase />
+          <WorkflowDemo />
+          <Features />
+          <Pricing />
+          <FAQ />
+          <FooterCTA />
+        </main>
+      </div>
       <Footer />
     </div>
   )
