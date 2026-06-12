@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Strand is the AI workflow canvas where creators attach text, image, video, audio, pixel-art and 3D models into one flowing pipeline." />
+    <title>Strand — Every model. One thread.</title>
+    <!-- Google Fonts: Lato (700, 900) + Inter (400, 500, 600) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lato:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Anti-flash: apply dark class before first paint -->
+    <script>
+      (function () {
+        try {
+          var theme = localStorage.getItem('strand-theme') || 'light';
+          if (theme === 'dark') {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
