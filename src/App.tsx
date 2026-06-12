@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 import StatQuote from './components/StatQuote'
 import ModelShowcase from './components/ModelShowcase'
 import WorkflowDemo from './components/WorkflowDemo'
+import Industries from './components/Industries'
 import Features from './components/Features'
 import Pricing from './components/Pricing'
 import FAQ from './components/FAQ'
@@ -23,6 +24,7 @@ function App() {
           <StatQuote />
           <ModelShowcase />
           <WorkflowDemo />
+          <Industries />
           <Features />
           <Pricing />
           <FAQ />
