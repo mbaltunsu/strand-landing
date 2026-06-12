@@ -169,8 +169,16 @@ export default function DemoFlow() {
         onEdgesChange={onEdgesChange}
         fitView
         fitViewOptions={fitViewOptions}
+        onInit={(inst) => {
+          let t: ReturnType<typeof setTimeout>
+          const refit = () => {
+            clearTimeout(t)
+            t = setTimeout(() => inst.fitView(fitViewOptions), 150)
+          }
+          window.addEventListener('resize', refit)
+        }}
         proOptions={proOptions}
-        minZoom={0.4}
+        minZoom={0.2}
         maxZoom={1.5}
         zoomOnScroll={false}
         preventScrolling={false}
