@@ -49,7 +49,7 @@ function NodeBadge({
 export default function HeroIllustration({ className = '' }: { className?: string }) {
   return (
     <svg
-      viewBox="0 0 920 780"
+      viewBox="0 0 1000 780"
       className={className}
       role="img"
       aria-label="A maker at a drafting table conducts glowing threads through floating AI model nodes — text, image, video, pixel art and 3D — weaving into one finished canvas."
@@ -244,7 +244,7 @@ export default function HeroIllustration({ className = '' }: { className?: strin
       </g>
 
       {/* ---------- grain ---------- */}
-      <rect x="0" y="0" width="920" height="780" fill={INK} opacity="0.05" filter="url(#il-grain)" pointerEvents="none" />
+      <rect x="0" y="0" width="1000" height="780" fill={INK} opacity="0.05" filter="url(#il-grain)" pointerEvents="none" />
     </svg>
   )
 }
